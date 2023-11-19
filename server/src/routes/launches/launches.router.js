@@ -1,8 +1,8 @@
 const express = require('express');
 const {
-    httpAddNewLaunch,
-    httpGetAllLaunches,
-    httpAbortLaunch
+  httpGetAllLaunches,
+  httpAddNewLaunch,
+  httpAbortLaunch,
 } = require('./launches.controller');
 
 const launchesRouter = express.Router();
